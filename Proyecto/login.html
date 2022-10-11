@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="css/estiloslog.css">
+    </head>
+    <body>
+        <div class="formulario">
+            <img src="/imagenes/usuario.png">
+            <h1>Inicio de sesión</h1>
+            <form method="post">
+                <div class="usuario">
+                    <input type="text" name="txtusuario" required>
+                    <label>Nombre de usuario</label>
+                </div>
+                <div class="contrasena">
+                    <input type="password" name="txtpassword" required>
+                    <label>Contraseña</label>
+                </div>
+                <!--<div class="recordar">¿Has olvidado tu contraseña?</div>-->
+                <!--boton <p><a class href >nomb boton</a></p>-->
+                <input id="comprobar_sesion" onclick="redirigir()" type="submit" value="Iniciar">
+                <!--<button class="button"><a class="a" href="index.html">Iniciar</a></button>-->
+                <div class="Registrarse">
+                    ¿No tienes una cuenta? <a href="registro.html">Registrate</a>
+                </div>
+            </form>
+          </div>
+    </body>
+</html>

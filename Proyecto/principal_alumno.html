@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Adm. Escolar</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="container_header">
+                <div class="logo">
+                    <img src="/imagenes/conocimiento.png">
+                </div>
+                <div class="container_nav">
+                    <nav class>
+                        <ul>
+                            <li><a href="principal_alumno.html" class="select">Inicio</a></li>
+                            <li><a href="calificaciones.html" class="select">Calificaciones</a></li>
+                            <li><a href="historial.html" class="select">Historial Académico</a></li>
+                            <li><a href="perfil_alumno.html" class="select">Perfil</a></li>
+                            <li><a href="ayuda.html" class="select">Ayuda</a></li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="container_all">
+            <div class="cover">
+                <div class="container_cover">
+                    <div class="cointaner_info">
+                        <h1>Hola!</h1>
+                        <h2>
+                            <script type="text/javascript">
+                            var d=new Date();
+                            var hora=d.getHours();
+                            if(hora>=0&&hora<12){
+                                document.write('Buenos Dias');
+                            } else if(hora>=12&&hora<19){
+                                document.write('Buenas Tardes');
+                            } else{
+                                document.write('Buenas noches');
+                            }
+                        </script>
+                        </h2>
+                        <p>Bienvenido/a a tu Administrador escolar.</p>
+                    </div>
+                    <div class="container_vector">
+                        <img src="/imagenes/alumno.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
